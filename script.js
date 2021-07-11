@@ -13,5 +13,5 @@ const enterListener = (e) => {
   if (e.keyCode === 13 && input.value.length > 0) input.value = eval(input.value);
 }
 
-document.addEventListener('keyup', enterListener);
 document.addEventListener('click', btnListener);
+document.addEventListener('keyup', enterListener);
